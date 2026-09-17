@@ -1,1 +1,11 @@
-
+model:
+  target: "reordered"
+  optimal_threshold: 0.3622
+  metrics:
+    roc_auc: 0.8953
+  params:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 6
+    subsample: 0.8
+    random_state: 42
